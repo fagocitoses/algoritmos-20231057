@@ -1,7 +1,7 @@
 let letra = prompt(`Digite`).toLowerCase();
 
 let ehLetraDoAlfabeto = letra.charCodeAt(0) >= 97 && letra.charCodeAt(0) <= 122;
-
+console.log(letra)
 if (ehLetraDoAlfabeto) {
     let ehVogal = letra.charCodeAt(0) == 97 
                 || letra.charCodeAt(0) == 101 
